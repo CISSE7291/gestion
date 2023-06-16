@@ -3,122 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 <div class="container">
-  <table class="table table-fixed">
-    <thead>
-      <tr>
-    <th class="col-xs-3">N</th>
-        <th class="col-xs-3">Last Name</th>
-        <th class="col-xs-6">E-mail</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
-      <tr>
-        <td class="col-xs-3">John</td>
-        <td class="col-xs-3">Doe</td>
-        <td class="col-xs-6">johndoe@email.com</td>
-      </tr>
+<h2>LISTE DES ELEVES</h2>
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>N°</th>
+            <th>Nom</th>
+            <th>Prenom(s)</th>
+            <th>Date de naissances</th>
+            <th>Classe</th>
+            <th>Trimestre</th>
+            <th>Id parent</th>
+        </tr>
+        </thead>
+      
     </tbody>
-  </table>
+  </table> <tbody>
 </div>
 </body>
 </html>
