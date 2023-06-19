@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/styl.css">
     <title>Document</title>
 </head>
 <body>
-<div class="container">
-<h2>LISTE DES ELEVES</h2>
-<div class="table-wrapper">
-    <table class="fl-table">
-        <thead>
-        <tr>
-            <th>N°</th>
-            <th>Nom</th>
-            <th>Prenom(s)</th>
-            <th>Date de naissances</th>
-            <th>Classe</th>
-            <th>Trimestre</th>
-            <th>Id parent</th>
-        </tr>
-        </thead>
-      
-    </tbody>
-  </table> <tbody>
-</div>
+<table>
+  <caption>LISTE DES ELEVES</caption>
+  <thead>
+    <tr>
+      <th scope="col">N</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Prénom(s)</th>
+      <th scope="col">Date de naissance</th>
+      <th scope="col">Classe</th>
+      <th scope="col">Trimestre</th>
+      <th scope="col">Id parent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>1</td>
+        <td>cissé</td>
+        <td>amadou</td>
+        <td>10-08-1990</td>
+        <td>5ème</td>
+        <td>ajout trimestre</td>
+        <td>DIAKITE</td>
+    </tr>
+  </tbody>
+</table>
 </body>
 </html>

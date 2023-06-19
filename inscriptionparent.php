@@ -7,22 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-<div class="container">
-        <div class="card">
-            <a class="login">Log in</a>
-            <div class="inputBox">
-                <input type="text" required="required">
-                <span class="user">Username</span>
-            </div>
-
-            <div class="inputBox">
-                <input type="password" required="required">
-                <span>Password</span>
-            </div>
-
-            <button class="enter">Enter</button>
-
-        </div>
+<div class="login-box">
+  <p>Inscrire Parent</p>
+  <form>
+    <div class="user-box">
+      <input required="" name="" type="text">
+      <label>Nom complet</label>
+    </div>
+    <div class="user-box">
+      <input required="" name="" type="email">
+      <label>E-mail</label>
+    </div>
+    <div class="user-box">
+      <input required="" name="" type="password">
+      <label>Mot de passe</label>
+    </div>
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Inscrire
+    </a>
+  </form>
+  <p>Don't have an account? <a href="" class="a2">Sign up!</a></p>
+</div>
     </div>  
 </body>
 </html>
